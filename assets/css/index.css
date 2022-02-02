@@ -1,0 +1,75 @@
+@import '/assets/css/reset.css';
+@import '/assets/css/nav.css';
+@import '/assets/css/footer.css';
+
+
+/* body & image section */
+
+.comp-lib-sub-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 3rem;
+}
+
+.comp-lib-body{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100%;  
+}
+
+.comp-lib-body-ele{
+    display: flex;
+    flex-direction: column;
+}
+
+.comp-lib-h5{
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.comp-lib-h3{
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.comp-lib-h4{
+    
+    font-size: 1.4rem;
+    color: var(--primary-color);
+}
+
+.comp-lib-image{
+    height: 65vh;
+    width: 50vw;
+}
+
+/* button section */
+
+.comp-lib-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#comp-lib-btn{
+    align-items: center;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 3rem;
+    transition: ease-in .3s;
+}
+
+#comp-lib-btn:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+}
