@@ -38,6 +38,19 @@ body{
 
 }
 
+.code-snippet-display{
+    width: 100%;
+    max-height: 30rem;
+    padding: 1rem 0;
+    margin: 2rem 0;
+    overflow: auto;
+    background-color: var(--code-snip-bg-color);
+}
+
+.code-snippet-display iframe{
+    width: 100%;    
+}
+
 .common-container {
     width: 100%;
     display: flex;
