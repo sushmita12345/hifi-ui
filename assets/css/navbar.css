@@ -1,0 +1,91 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8rem;
+  width: 100%;
+  background-color: var(--secondary-color);
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+.logo {
+  height: 7rem;
+  width: 7rem;
+  cursor: pointer;
+}
+
+.search-bar {
+  width: 35rem;
+  height: 4rem;
+  background: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: var(--primary-color);
+}
+
+.search-bar::placeholder {
+  color: var(--primary-color);
+}
+
+.nav-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-btn {
+  width: 10rem;
+  height: 4rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  border: none;
+  text-align: center;
+  color: var(--secondary-color);
+  border-radius: 3rem;
+  transition: ease-in-out 0.5s;
+  cursor: pointer;
+  background: var(--primary-color);
+}
+
+.nav-btn:hover {
+  background-color: var(--tertiary-color);
+}
+
+.btn-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+}
+
+.nav-heart-icon {
+  color: var(--primary-color);
+  padding: 1.5rem;
+  transition: ease-in 0.3s;
+  cursor: pointer;
+}
+
+.nav-heart-icon:hover {
+  color: var(--tertiary-color);
+}
+
+.nav-cart-icon {
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-cart-icon:hover {
+  color: var(--tertiary-color);
+}
+
+.nav-hamburger-icon {
+  display: none;
+}

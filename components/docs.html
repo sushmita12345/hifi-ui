@@ -22,7 +22,7 @@
             <!-- Nav section start -->
             <header>
 
-                <div class="comp-lib-sub-nav">
+                <div class="comp-lib-sub-nav nav-addon">
                     <a href="/"><img src="../assets/img/logo.png" class="comp-lib-logo" /></a>
                     <a href="/components/docs.html"><h4 class="comp-lib-h4-ele_2">Docs</h4></a>
                 </div>
@@ -40,7 +40,7 @@
                 
                 <div class="comp-lib-body-ele comp-lib-ele_1">
                     <div class="comp-lib-drawer-sidebar">
-                        <nav class="comp-lib-sidebar-content">
+                        <div class="comp-lib-sidebar-content">
                             <a href="#install" class="comp-drawer-content">Installation</a>
                             <a href="#comp-avatar" class="comp-drawer-content">Avatar</a>
                             <a href="#comp-badge" class="comp-drawer-content">Badge</a>
@@ -49,7 +49,11 @@
                             <a href="#comp-card" class="comp-drawer-content">Card</a>
                             <a href="#comp-image" class="comp-drawer-content">Image</a>
                             <a href="#comp-input" class="comp-drawer-content">Input</a>
-                        </nav>
+                            <a href="#comp-text" class="comp-drawer-content">Text Utilities</a>
+                            <a href="#comp-nav" class="comp-drawer-content">Navigation</a>
+                            <a href="#comp-snack" class="comp-drawer-content">Snackbar</a>
+                            <a href="#comp-grid" class="comp-drawer-content">Grid</a>
+                        </div>
                     </div>
                 </div>
 
@@ -680,6 +684,39 @@
                                         </iframe>
                                     </code>
                                 </div>
+
+                                <h3 class="button-sub-heading">Example of horizontal Card</h3>
+                                <div class="lower-section-1">
+                                    <div class="lower-card">
+                                        <div class="lower-card-1">
+                                            <img class="lower-card-img" src="/assets/img/model_image.jpg" />
+                                        </div>
+                                        <div class="lower-card-2">
+                                            <h5 class="lower-content-1">New Arrivals</h5>
+                                            <div class="lower-content-2">
+                                                <h3 class="content-1">Winter Collection</h3>
+                                                <p class="content-2">Check out our best winter collection to stay warm in style this season.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h3 class="button-sub-heading">Example of Add to cart Card</h3>
+                                <div class="card-container">
+                                    <div class="card-1">
+                                        <img class="card-img" src="/assets/img/model_image.jpg" />
+                                        <div class="card-content">
+                                            <h5 class="card-content">Men premium Jacket</h5>
+                                            <div class="card-pricing"> 
+                                                <span class="material-icons rupee-icon">
+                                                    currency_rupee
+                                                </span>
+                                                <h3 class="card-price">2000</h3>
+                                            </div>
+                                        </div>
+                                        <button class="card-btn">Go to cart</button>
+                                    </div>
+                                </div>
                             </div> 
                         </div>
                     </div>
@@ -782,6 +819,200 @@
                     </div>
 
                     <!-- Input section end -->
+
+                    <!-- Text Utilities start -->
+
+                    <div class="Text-Utilities common-container" id="comp-text">
+                        <div class="common-wrapper">
+
+                            <h1 class="comp-lib-avatar-color">Text Utilities</h1>
+                            <div class="comp-lib-avatar-content_a">Text Utilities is to control the headings, small text & grey text.</div>
+
+                            <h3 class="button-sub-heading">Example of Headings</h3>
+                            <div class="text-container-1">
+                                <h1 class="heading-1">This is Heading</h1>
+                                <h2 class="heading-2">This is Heading</h2>
+                                <h3 class="heading-1">This is Heading</h3>
+                                <h4 class="heading-2">This is Heading</h4>
+                                <h5 class="heading-1">This is Heading</h5>
+                            </div>
+                            <div class="code-snippet-display">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Ch1%2520class%253D%2522heading-1%2522%253EThis%2520is%2520Heading%253C%252Fh1%253E%250A%253Ch2%2520class%253D%2522heading-2%2522%253EThis%2520is%2520Heading%253C%252Fh2%253E%250A%253Ch3%2520class%253D%2522heading-1%2522%253EThis%2520is%2520Heading%253C%252Fh3%253E%250A%253Ch4%2520class%253D%2522heading-2%2522%253EThis%2520is%2520Heading%253C%252Fh4%253E%250A%253Ch5%2520class%253D%2522heading-1%2522%253EThis%2520is%2520Heading%253C%252Fh5%253E"
+                                        style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+
+                            <h3 class="button-sub-heading">Example of small text</h3>
+                            <div class="text-container-1">
+                                <small class="small-text">This is small text</small>
+                            </div>
+                            <div class="code-snippet-display">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Ch3%2520class%253D%2522small-text%2522%253EThis%2520is%2520small%2520text%253C%252Fh3%253E"
+                                        style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+
+                            <h3 class="button-sub-heading">Example of grey text</h3>
+                            <div class="text-container-1">
+                                <h2 class="grey-text">This is Grey text</h4>
+                            </div>
+                            <div class="code-snippet-display">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Ch2%2520class%253D%2522grey-text%2522%253EThis%2520is%2520Grey%2520text%253C%252Fh4%253E"
+                                        style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Text Utilities end -->
+
+                    <!-- Navigation start -->
+
+                    <div class="Navigation common-container" id="comp-nav">
+                        <div class="common-wrapper">
+
+                            <h1 class="comp-lib-avatar-color">Navigation</h1>
+                            <div class="comp-lib-avatar-content_a">Navigation bar is a section of a graphical user interface intended to aid visitors in accessing information.</div>
+                        
+                            <h3 class="button-sub-heading">Example of Navbar</h3>
+
+                            <nav>
+            
+                                <img src="../assets/img/logo.png" class="logo" />
+                                <div>
+                                    <input class="search-bar" type="search" placeholder="Search" />
+                                </div>
+                                <div class="btn-left">
+                                    <button class="nav-btn">Login</button>
+                                    <span class="material-icons nav-heart-icon">
+                                        favorite_border
+                                    </span>
+                                    <span class="nav-cart-icon">
+                                        <span class="material-icons">
+                                            shopping_cart
+                                        </span>Cart
+                                    </span>
+                                    <span class="material-icons nav-hamburger-icon">
+                                        menu
+                                    </span>
+                                </div>
+                            </nav>
+
+                            <div class="code-snippet-display">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cnav%253E%2520%2520%2520%250A%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fimg%252Flogo.png%2522%2520class%253D%2522logo%2522%2520%252F%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522search-bar%2522%2520type%253D%2522search%2522%2520placeholder%253D%2522Search%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522btn-left%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522nav-btn%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520nav-heart-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520favorite_border%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522nav-cart-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520shopping_cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253ECart%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520nav-hamburger-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520menu%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+                                        style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                        
+                        </div>
+                    </div>
+
+                    <!-- Navigation end -->
+
+                    <!-- Snackbar start -->
+
+                    <div class="Navigation common-container" id="comp-snack">
+                        <div class="common-wrapper">
+
+                            <h1 class="comp-lib-avatar-color">Snackbar</h1>
+                            <div class="comp-lib-avatar-content_a">Snackbars are often used as a tooltips/popups to show a message at the bottom of the screen.</div>
+                        
+                            <h3 class="button-sub-heading">Example of Snackbar</h3>
+
+                            <div class="snackbar">
+                                <div class="snackbar-one">
+                                    <div class="snackbar-two">
+                                        <div class="snackbar-content-one">Can't send photo. Retry in 5 seconds.</div>
+                                        <div class="snackbar-content-two">
+                                            <button class="snackbar-btn">
+                                                <div class="snackbar-retry">Retry</div>
+                                            </button>
+                                            <button class="material-icons snackbar-close">close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="code-snippet-display">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-content-one%2522%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-content-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522snackbar-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-retry%2522%253ERetry%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522material-icons%2520snackbar-close%2522%253Eclose%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                        style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Snackbar end -->
+
+                    <!-- Grid start -->
+
+                    <div class="Grid common-container" id="comp-grid">
+                        <div class="common-wrapper">
+
+                            <h1 class="comp-lib-avatar-color">Simplified Grid</h1>
+                            <div class="comp-lib-avatar-content_a">Grid layout or CSS grid creates complex responsive web design grid layouts more easily and consistently across browsers. It also divides the page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives. Like tables, grid layout enables an author to align elements into columns and rows.</div>
+                        
+                            <h3 class="button-sub-heading">Example of Two & Three items in Grid</h3>
+
+                            <!-- Two item in grid -->
+                            <div class="grid-container-1a">
+                                <div class="grid-section-1">
+                                    <img class="card-img" src="/assets/img/model_image.jpg" />
+                                </div>
+                                <div class="grid-section-1">
+                                    <img class="card-img" src="/assets/img/model_image.jpg" />
+                                </div>
+                            </div>
+
+                            <!-- Three item in grid -->
+                            <div class="grid-container-1b">
+                                <div class="grid-section-1">
+                                    <img class="card-img" src="/assets/img/model_image.jpg" />
+                                </div>
+                                <div class="grid-section-1">
+                                    <img class="card-img" src="/assets/img/model_image.jpg" />
+                                </div>
+                                <div class="grid-section-1">
+                                    <img class="card-img" src="/assets/img/model_image.jpg" />
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="code-snippet-display">
+                            <code>
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520Two%2520item%2520in%2520grid%2520--%253E%250A%250A%253Cdiv%2520class%253D%2522grid-container-1a%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-section-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522%252Fassets%252Fimg%252Fmodel_image.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-section-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522%252Fassets%252Fimg%252Fmodel_image.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--%2520Three%2520item%2520in%2520grid%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522grid-container-1b%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-section-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522%252Fassets%252Fimg%252Fmodel_image.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-section-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522%252Fassets%252Fimg%252Fmodel_image.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-section-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-img%2522%2520src%253D%2522%252Fassets%252Fimg%252Fmodel_image.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                    style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                    sandbox="allow-scripts allow-same-origin">
+                                </iframe>
+                            </code>
+                        </div>
+                    </div>
+                   
+
+
+                    <!-- Grid end -->
 
                     
 
