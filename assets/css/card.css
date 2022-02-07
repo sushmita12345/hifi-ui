@@ -108,7 +108,6 @@
 .lower-section-1 {
   width: 50%;
   border: 1px solid var(--light-grey);
-  /* background-color: green; */
 }
 
 .lower-card-img {
@@ -174,6 +173,7 @@
   padding-top: 0.6rem;
   font-size: 1.2rem;
   font-weight: 300;
+  margin: 0;
 }
 
 .card-pricing {
@@ -225,7 +225,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 3rem;
 }
 
 .price-part {
@@ -268,43 +267,10 @@
 .discount {
   margin-bottom: 2rem;
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 900;
   color: var(--grey);
+  margin: 0;
 }
-
-/* .horizontal-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    width: 40%;
-    border-radius: .5rem;
-    background-color: var(--white);
-    border: .1rem solid var( --secondary-color);
-   
-}
-
-.card-one{
-    display: flex;
-}
-
-.card-images{
-    height: 12rem;
-    width: 11rem;
-    border-radius: .5rem .5rem 0 0;
-}
-
-.card-images-badge{
-    height: 7rem;
-    width: 6.5rem;
-    padding: 3rem;
-    border-radius: 50%;
-}
-
-.card-top-content{
-    padding: 2rem;
-    flex-wrap: wrap;
-} */
 
 .Card-container-content-upper {
   font-size: 2rem;
@@ -313,17 +279,6 @@
 .Card-container-content-lower {
   font-size: 1.4rem;
 }
-
-/* .card-two{
-    display: flex;
-    padding: 1rem;
-}
-
-.card-bottom-left {
-    display: inline-flex;
-    margin-right: auto;
-    gap: 1rem; 
-} */
 
 .card-read {
   background: none;
@@ -338,49 +293,3 @@
   font-size: 1.5rem;
   background-color: var(--white);
 }
-
-/* .card-bottom-right {
-    display: inline-flex;
-    justify-content: flex-end;
-    margin-left: auto;
-    gap: 1rem;
-}
-
-.social-one{
-    height: 2rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: var(--white);
-}
-
-.social-two{
-    height: 1.5rem;
-    display: flex;
-    gap: .5rem;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: var(--white);
-}
-
-.favourite {
-    border: 0 none var(--white);   
-}
-
-.horizontal-heart{
-    background: none;
-    border: none;
-    color: var(--grey);
-}
-
-.horizontal-share{
-    background: none;
-    border: none;
-    color: var(--grey);
-}
-
-.horizontal-dot{
-    background: none;
-    border: none;
-    color: var(--grey);
-} */
