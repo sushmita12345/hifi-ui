@@ -201,6 +201,77 @@
   color: var(--secondary-color);
 }
 
+.card-2 {
+  width: 39vw;
+  display: flex;
+  border: 0.1rem solid var(--light-grey);
+}
+
+.card-img-2 {
+  width: 18vw;
+  height: 40vh;
+}
+
+.card-addon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 2rem;
+}
+
+.pricing-addon {
+  width: 18vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 3rem;
+}
+
+.price-part {
+  display: flex;
+  align-items: flex-start;
+}
+
+.discount-price {
+  display: flex;
+  align-items: center;
+}
+
+.original-price {
+  display: flex;
+  align-items: center;
+  color: var(--light-grey);
+}
+
+.card-price-cut {
+  font-size: 1.4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.8rem;
+  text-decoration-line: line-through;
+}
+
+.card-button {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.btn-color-addon {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.discount {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--grey);
+}
+
 /* .horizontal-card {
     display: flex;
     flex-direction: column;
