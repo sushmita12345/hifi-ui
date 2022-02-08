@@ -30,6 +30,10 @@ body {
   --shadow-1: rgba(255, 255, 255, 0.1);
   --shadow-2: rgba(50, 50, 93, 0.25);
   --shadow-3: rgba(0, 0, 0, 0.3);
+  --shadow-4: rgba(0, 0, 0, 0.1);
+  --snackbar-1: rgb(0 0 0 / 20%);
+  --snackbar-2: rgb(0 0 0 / 14%);
+  --snackbar-3: rgb(0 0 0 / 12%);
   --white: #ffffff;
   --status-badge: #d3d3d3;
   --alert-red-bg: #fff0f5;

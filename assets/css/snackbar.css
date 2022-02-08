@@ -14,8 +14,8 @@
   background-color: #333;
   align-items: center;
   justify-content: flex-start;
-  box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%),
-    0 1px 18px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 3px 5px -1px var(--snackbar-1), 0 6px 10px 0 var(--snackbar-2),
+    0 1px 18px 0 var(--snackbar-3);
   border-radius: 4px;
 }
 
