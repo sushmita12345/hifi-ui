@@ -1,15 +1,37 @@
-.Image-responsive{
+.Image-responsive {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.Image-round-body {
+  position: relative;
+  width: 50%;
+  padding-bottom: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.Image-round-body img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* .img-responsive {
+  padding-top: 3rem;
+}
+
+.Image-round {
+  height: auto;
+  width: 25vw;
+  border-radius: 50%;
+} */
+
+@media only screen and (max-width: 600px) {
+  .Image-responsive {
     width: 100%;
-    height: 45vh;
+    height: auto;
     object-fit: cover;
-}
-
-.img-responsive{
-    padding-top: 3rem;
-}
-
-.Image-round{
-    width: 30%;
-    height: 33vh;
-    border-radius: 50%;  
+  }
 }
