@@ -1,13 +1,15 @@
 .Image-responsive {
   width: 100%;
   height: auto;
+  margin-top: 3vh;
   object-fit: cover;
 }
 
 .Image-round-body {
   position: relative;
-  width: 50%;
-  padding-bottom: 50%;
+  width: 20vw;
+  height: 20vw;
+  margin-top: 3vh;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -16,22 +18,4 @@
   width: 100%;
   height: 100%;
   position: absolute;
-}
-
-/* .img-responsive {
-  padding-top: 3rem;
-}
-
-.Image-round {
-  height: auto;
-  width: 25vw;
-  border-radius: 50%;
-} */
-
-@media only screen and (max-width: 600px) {
-  .Image-responsive {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
 }

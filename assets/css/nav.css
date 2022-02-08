@@ -26,7 +26,6 @@ header {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   font-size: 2.4rem;
-  /* position: sticky; */
   position: fixed;
   width: 100%;
   top: 0;
