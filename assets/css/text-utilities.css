@@ -1,5 +1,5 @@
 .grey-text {
-  color: var(--grey);
+  color: var(--grey-shade);
 }
 
 .small-text {
@@ -11,5 +11,5 @@
 }
 
 .heading-2 {
-  color: var(--red);
+  color: var(--red-shade);
 }

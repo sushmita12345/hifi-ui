@@ -22,26 +22,29 @@ body {
   --grey: #808080;
   --light-grey: #d3d3d3;
   --code-snip-bg-color: #fafafa;
-  --red: #ff0000;
-  --green: #228b22;
-  --blue: #0000ff;
-  --orange: #ffa500;
-  --black: #000000;
+  --red-shade: #ff0000;
+  --green-shade: #228b22;
+  --blue-shade: #0000ff;
+  --orange-shade: #ffa500;
+  --black-shade: #000000;
   --shadow-1: rgba(255, 255, 255, 0.1);
   --shadow-2: rgba(50, 50, 93, 0.25);
   --shadow-3: rgba(0, 0, 0, 0.3);
   --shadow-4: rgba(0, 0, 0, 0.1);
+  --shadow-5: #333;
   --snackbar-1: rgb(0 0 0 / 20%);
   --snackbar-2: rgb(0 0 0 / 14%);
   --snackbar-3: rgb(0 0 0 / 12%);
-  --white: #ffffff;
+  --white-shade: #ffffff;
+  --light-shade: hsla(0, 0%, 100%, 0.87);
   --status-badge: #d3d3d3;
   --alert-red-bg: #fff0f5;
   --alert-green-bg: #f0f8ff;
   --alert-blue-bg: #f0f8ff;
   --alert-orange-bg: #fffff0;
   --alert-grey-bg: #f5f5f5;
-  --orchid: #da70d6;
+  --orchid-shade: #da70d6;
+  --light-orchid: #bb86fc;
 }
 
 .code-snippet-display {

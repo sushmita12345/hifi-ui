@@ -1,29 +1,29 @@
-.Input-textbox{
-    height: 5vh;
-    width: 15vw;
-    border: .2rem solid var(--black);
+.Input-textbox {
+  height: 5vh;
+  width: 15vw;
+  border: 0.2rem solid var(--black-shade);
 }
 
-.Input-textbox_a{
-    height: 5vh;
-    width: 15vw;
-    border: 2px solid var(--red);
+.Input-textbox_a {
+  height: 5vh;
+  width: 15vw;
+  border: 2px solid var(--red-shade);
 }
 
-.Input-textbox_b{
-    height: 5vh;
-    width: 15vw;
-    border: .2rem solid var(--orange);
+.Input-textbox_b {
+  height: 5vh;
+  width: 15vw;
+  border: 0.2rem solid var(--orange-shade);
 }
 
-.Input-textbox_c{
-    height: 5vh;
-    width: 15vw;
-    border: .2rem solid var(--green);
+.Input-textbox_c {
+  height: 5vh;
+  width: 15vw;
+  border: 0.2rem solid var(--green-shade);
 }
 
-.Input-container-body{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+.Input-container-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }

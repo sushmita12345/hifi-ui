@@ -8,8 +8,8 @@
   display: flex;
   flex-direction: column;
   border-radius: 0.5rem;
-  background-color: var(--white);
-  border: 0.1rem solid var(--black);
+  background-color: var(--white-shade);
+  border: 0.1rem solid var(--black-shade);
 }
 
 .Card-container-shadow {
@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 0.5rem;
-  background-color: var(--white);
+  background-color: var(--white-shade);
   box-shadow: var(--shadow-1) 0px 1px 1px 0px inset,
     var(--shadow-2) 0px 50px 100px -20px, var(--shadow-3) 0px 30px 60px -30px;
 }
@@ -26,7 +26,7 @@
   max-height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: var(--white);
+  background-color: var(--white-shade);
   position: relative;
 }
 
@@ -54,7 +54,7 @@
 
 .card-close {
   position: absolute;
-  color: var(--white);
+  color: var(--white-shade);
   top: 1rem;
   right: 1rem;
 }
@@ -72,7 +72,7 @@
 .content-position {
   position: absolute;
   top: 15rem;
-  color: var(--white);
+  color: var(--white-shade);
 }
 
 .Card-container-content-upper {
@@ -266,7 +266,7 @@
   margin-bottom: 2rem;
   font-size: 1.2rem;
   font-weight: 900;
-  color: var(--grey);
+  color: var(--grey-shade);
   margin: 0;
 }
 
@@ -281,13 +281,13 @@
 .card-read {
   background: none;
   border: none;
-  color: var(--orchid);
+  color: var(--orchid-shade);
   font-size: 1.5rem;
 }
 
 .card-bookmark {
   border: none;
-  color: var(--orchid);
+  color: var(--orchid-shade);
   font-size: 1.5rem;
-  background-color: var(--white);
+  background-color: var(--white-shade);
 }

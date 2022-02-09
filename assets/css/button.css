@@ -53,7 +53,7 @@ button {
 }
 
 .ic-text-tw {
-  color: var(--green);
+  color: var(--green-shade);
   font-size: 1.6rem;
 }
 
@@ -76,7 +76,7 @@ a:link {
 }
 
 .btn-tw {
-  border: 0.2rem solid var(--green);
+  border: 0.2rem solid var(--green-shade);
   background-color: var(--primary-color);
 }
 
@@ -87,22 +87,22 @@ a:link {
 }
 
 .btn-p-on {
-  background-color: var(--blue);
+  background-color: var(--blue-shade);
 }
 
 .btn-p-tw {
-  background-color: var(--green);
+  background-color: var(--green-shade);
 }
 
 .btn-p-th {
-  background-color: var(--orange);
+  background-color: var(--orange-shade);
 }
 
 .btn-p-fo {
-  background-color: var(--red);
+  background-color: var(--red-shade);
 }
 
 .btn-p-fi {
-  background-color: var(--white);
-  color: var(--black);
+  background-color: var(--white-shade);
+  color: var(--black-shade);
 }

@@ -11,7 +11,7 @@
 
 .snackbar-two {
   display: flex;
-  background-color: #333;
+  background-color: var(--shadow-5);
   align-items: center;
   justify-content: flex-start;
   box-shadow: 0 3px 5px -1px var(--snackbar-1), 0 6px 10px 0 var(--snackbar-2),
@@ -24,7 +24,7 @@
   font-weight: 400;
   flex-grow: 1;
   padding: 14px 16px;
-  color: hsla(0, 0%, 100%, 0.87);
+  color: var(--light-shade);
 }
 
 .snackbar-content-two {
@@ -41,7 +41,7 @@
   min-width: 60px;
   font-size: 14px;
   font-weight: 500;
-  color: #bb86fc;
+  color: var(--light-orchid);
   background-color: transparent;
   border: none;
   text-transform: uppercase;
@@ -63,7 +63,7 @@
   font-weight: 500;
   background-color: transparent;
   border: none;
-  color: hsla(0, 0%, 100%, 0.87);
+  color: var(--light-shade);
   cursor: pointer;
   text-align: center;
 }
