@@ -66,21 +66,17 @@
   position: absolute;
   height: 2.5vh;
   width: 1vh;
-  /* width: auto; */
   border-radius: 50%;
   border: none;
   background-color: var(--red-shade);
   bottom: 75%;
   right: -10%;
-  /* top: -5%;
-  left: 85%; */
 }
 
 .badge-notification_b {
   position: absolute;
   height: 2.5vh;
   width: 2.5vh;
-  /* width: auto; */
   border-radius: 50%;
   border: none;
   background-color: var(--red-shade);
@@ -89,15 +85,12 @@
   font-size: 1rem;
   bottom: 70%;
   right: 0;
-  /* top: 0;
-  left: 70%; */
 }
 
 .badge-notification_c {
   position: absolute;
   height: 2.5vh;
   width: 2.5vh;
-  /* width: auto; */
   border-radius: 50%;
   border: none;
   background-color: var(--red-shade);
