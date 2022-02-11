@@ -12,6 +12,13 @@
   border: 0.1rem solid var(--black-shade);
 }
 
+.card-container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .Card-container-shadow {
   width: 40%;
   display: flex;
@@ -21,6 +28,23 @@
   box-shadow: var(--shadow-1) 0px 1px 1px 0px inset,
     var(--shadow-2) 0px 50px 100px -20px, var(--shadow-3) 0px 30px 60px -30px;
 }
+/* 
+.fav-back {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
+.card-fav {
+  position: absolute;
+  top: 1.3rem;
+  right: 1.3rem;
+  color: var(--grey);
+} */
 
 .Card-one {
   max-height: 100%;
@@ -48,9 +72,10 @@
   position: relative;
 }
 
-.card-content {
+/* .card-content {
   font-size: 1.2rem;
-}
+  
+} */
 
 .card-close {
   position: absolute;
@@ -149,29 +174,31 @@
   font-weight: 300;
 }
 
-.card-1 {
-  width: 30%;
-  border: 1px solid var(--light-grey);
-}
-
 .card-img {
   height: 30rem;
   width: 100%;
-  object-fit: cover;
+  background-color: var(--white);
+}
+
+.card-container {
+  width: 100%;
+  position: relative;
 }
 
 .card-1 {
+  width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: var(--white);
 }
 
 .card-content {
   padding-top: 0.6rem;
   font-size: 1.2rem;
   font-weight: 300;
-  margin: 0;
 }
 
 .card-pricing {
@@ -180,23 +207,35 @@
   justify-content: center;
 }
 
+.card-btn {
+  width: 15vw;
+  height: 3.5rem;
+  border: none;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.card-container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .rupee-icon {
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 2.4rem;
+  font-weight: 400;
 }
 
 .card-price {
-  font-size: 1.4rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 
-.card-btn {
-  width: 96%;
-  height: 4rem;
-  border: none;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+.card-price-cut {
+  font-size: 1.8rem;
+  font-weight: 600;
 }
 
 .card-2 {
@@ -242,9 +281,8 @@
 }
 
 .card-price-cut {
-  font-size: 1.4rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.8rem;
+  font-size: 1.8rem;
+  font-weight: 600;
   text-decoration-line: line-through;
 }
 
