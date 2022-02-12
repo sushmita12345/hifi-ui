@@ -8,7 +8,7 @@
     font-size: 2rem;
 }
 
-.icon-btn{
+.btn-icon{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +17,10 @@
     background-color: var(--secondary-color);
     border: none;
     display: inline-flex;
+}
+
+button{
+    cursor: pointer;
 }
 
 .icon-color{
