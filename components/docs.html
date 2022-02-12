@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="/assets/css/docs.css">
-    <link rel="icon" href="../assets/img/logo.png" />
+    <link rel="icon" href="/assets/img/logo.png" />
 
 </head>
 <body>
@@ -23,7 +23,7 @@
             <header>
 
                 <div class="comp-lib-sub-nav">
-                    <a href="/components/index.html"><img src="../assets/img/logo.png" class="comp-lib-logo" /></a>
+                    <a href="/"><img src="../assets/img/logo.png" class="comp-lib-logo" /></a>
                     <a href="/components/docs.html"><h4 class="comp-lib-h4-ele_2">Docs</h4></a>
                 </div>
 
@@ -72,7 +72,7 @@
                         <div class="code-snippet-display">
                             <code>
                                 <iframe
-                                    src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=https%253A%252F%252FHiFi.netlify.app%252Fmain.css"
+                                    src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=https%253A%252F%252Fhighfi-ui.netlify.app%252Fassets%252Fcss%252Fnain.css"
                                     style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
                                     sandbox="allow-scripts allow-same-origin">
                                 </iframe>
@@ -287,6 +287,506 @@
                     
                     
                     <!-- alert section end -->
+
+                     <!-- button section start -->
+
+
+                     <div class="Button common-container" id="comp-button">
+
+                        <div class="common-wrapper">
+                            <h1 class="comp-lib-avatar-color">Button</h1>
+                            <div class="comp-lib-avatar-content_a">Use <span class="comp-lib-span">HiFi's</span> custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.</div>
+                            <h3 class="button-sub-heading">Example of Icon Button with Text</h3>
+                            
+                            <div class="main-icon">
+                                <button class="btn-icon">
+                                    <span class="material-icons icon-color">home</span>
+                                    <span class="icon-text">Home</span>
+                                </button>
+                                <button class="btn-icon">
+                                    <span class="material-icons icon-color">menu</span>
+                                    <span class="icon-text">Menu</span>
+                                </button>
+                                <button class="btn-icon">
+                                    <span class="material-icons icon-color">delete</span>
+                                    <span class="icon-text">Trash</span>
+                                </button>
+                                <button class="btn-icon">
+                                    <span class="material-icons icon-color">close</span>
+                                    <span class="icon-text">Close</span>
+                                </button>
+                                <button class="btn-icon">
+                                    <span class="material-icons icon-color">folder</span>
+                                    <span class="icon-text">Folder</span>
+                                </button>
+                            </div>
+                            <div class="code-snippet-display">
+                                <code>
+
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522main-icon%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-color%2522%253Ehome%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-text%2522%253EHome%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-color%2522%253Emenu%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-text%2522%253EMenu%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-color%2522%253Edelete%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-text%2522%253ETrash%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-color%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-text%2522%253EClose%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-color%2522%253Efolder%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522icon-text%2522%253EFolder%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
+                                        style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                            
+                            <h3 class="button-sub-heading">Example of Icon Buttons</h3>
+                            <div class="main-icon">
+                                
+                                <button class="btn-icon">
+                                    <span class="material-icons icon-color">home</span>
+                                </button>
+                                <button class="btn-icon">
+                                    <span class="material-icons icon-color">menu</span>
+                                </button>
+                                <button class="btn-icon">
+                                    <span class="material-icons icon-color">delete</span>
+                                </button>
+                                <button class="btn-icon">
+                                    <span class="material-icons icon-color">close</span>
+                                </button>
+                                <button class="btn-icon">
+                                    <span class="material-icons icon-color">folder</span>
+                                </button>
+                                
+                            </div>
+                            <div class="code-snippet-display">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522main-icon%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-color%2522%253Ehome%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-color%2522%253Emenu%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-color%2522%253Edelete%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-color%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-color%2522%253Efolder%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                                        style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+
+                            <h3 class="button-sub-heading">Example of Floating Action Buttons</h3>
+                            <div class="main-icon">
+                                <button class="icon-circle-btn">
+                                    <span class="material-icons icon-color">add</span>
+                                </button>
+                                <button class="icon-circle-btn">
+                                    <span class="material-icons icon-color">star</span>
+                                </button>
+                                <button class="icon-circle-btn">
+                                    <span class="material-icons icon-color">chat</span>
+                                </button>
+                                <button class="icon-circle-btn">
+                                    <span class="material-icons icon-color">close</span>
+                                </button>
+                                <button class="icon-circle-btn">
+                                    <span class="material-icons icon-color">photo_camera</span>
+                                </button>
+                                
+                            </div>
+                            <div class="code-snippet-display">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=70px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522main-icon%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522icon-circle-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-color%2522%253Eadd%253C%252Fspan%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522icon-circle-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-color%2522%253Estar%253C%252Fspan%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522icon-circle-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-color%2522%253Echat%253C%252Fspan%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522icon-circle-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-color%2522%253Eclose%253C%252Fspan%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522icon-circle-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520icon-color%2522%253Ephoto_camera%253C%252Fspan%253E%250A%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                                        style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                    
+                            <h3 class="button-sub-heading">Example of Link Buttons</h3>
+                            <div class="main-icon">
+                                <button class="btn-icon btn-on">
+                                    <a href="#"><span class="ic-text-on">Home link</span></a>
+                                </button>
+                                <button class="btn-icon btn-on">
+                                    <a href="#"><span class="ic-text-tw">Menu link</span></a>
+                                </button>
+                                <button class="btn-icon btn-tw">
+                                    <a href="#"><span class="ic-text-th">Close link</span></a>
+                                </button>
+                                
+                                <button class="btn-icon btn-th">
+                                    <a href="#"><span class="ic-text-fo">Folder link</span></a>
+                                </button>
+                                
+                            </div>
+                            <div class="code-snippet-display">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522main-icon%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2520btn-on%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cspan%2520class%253D%2522ic-text-on%2522%253EHome%2520link%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2520btn-on%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cspan%2520class%253D%2522ic-text-tw%2522%253EMenu%2520link%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2520btn-tw%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cspan%2520class%253D%2522ic-text-th%2522%253EClose%2520link%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2520btn-th%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Cspan%2520class%253D%2522ic-text-fo%2522%253EFolder%2520link%253C%252Fspan%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                                        style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                    
+                            <h3 class="button-sub-heading">Example of Primary Buttons</h3>
+                            <div class="main-icon">
+                                <button class="btn-icon btn-clr btn-p-on">
+                                    Primary
+                                </button>
+                    
+                                <button class="btn-icon btn-clr btn-p-tw">
+                                    Success
+                                </button>
+                    
+                                <button class="btn-icon btn-clr btn-p-th">
+                                    Warning
+                                </button>
+                                
+                                <button class="btn-icon btn-clr btn-p-fo">
+                                    Danger
+                                </button>
+                    
+                                <button class="btn-icon btn-clr btn-p-fi">
+                                    Default
+                                </button>
+                            </div>
+                            <div class="code-snippet-display">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522main-icon%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2520btn-clr%2520btn-p-on%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Primary%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2520btn-clr%2520btn-p-tw%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Success%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2520btn-clr%2520btn-p-th%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Warning%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2520btn-clr%2520btn-p-fo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Danger%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-icon%2520btn-clr%2520btn-p-fi%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Default%250A%2520%2520%2520%2520%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                                        style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+                    
+
+                        </div>
+                        
+                    </div>
+
+                    <!-- button section end -->
+
+                    <!-- Card section start -->
+
+
+                    <div class="Cards common-container" id="comp-card">
+
+                        <div class="common-wrapper">
+
+                            <div class="Card-main">
+
+                                <h1 class="comp-lib-avatar-color">Cards</h1>
+                                <div class="comp-lib-avatar-content_a">Cards are great for organizing and enhancing a website's user interface. Each card is uniquely designed to make it easy for users to read the card content.</div>
+                               
+                                <h3 class="button-sub-heading">Example of Card with Icon</h3>
+                                <div class="Card-container">
+                                    <div class="Card-one">
+                                        <div class="Card-container-image">
+                                            <img class="Card-image" src="../assets/img/card_image.jpeg" alt="avatar">
+                                        </div>
+                                        <div class="Card-container-content">
+                                            <div class="Card-container-content-one">
+                                                <h2 class="Card-container-content-upper">Our Changing Planet</h2>
+                                                <h3 class="Card-container-content-lower">by Kurt Wagner</h3>
+                                            </div>
+                                            <div class="Card-container-content-two">
+                                                <p class="card-content">Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="Card-two">
+                                        <div class="Card-left">
+                                            
+                                        </div>
+                                        <div class="Card-right">
+                                            <div class="Card-social-icon-two">
+                                                <i class="material-icons icon-card-clr">favorite_border</i>
+                                                <i class="material-icons icon-card-clr">share</i>
+                                                <i class="material-icons icon-card-clr">more_vert</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="code-snippet-display">
+                                    <code>
+                                        <iframe
+                                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522Card-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522Card-image%2522%2520src%253D%2522images%252Fimages.jpeg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-content-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522Card-container-content-upper%2522%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522Card-container-content-lower%2522%253Eby%2520Kurt%2520Wagner%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-content-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253EVisit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-left%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-right%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-social-icon-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520icon-card-clr%2522%253Efavorite_border%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520icon-card-clr%2522%253Eshare%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520icon-card-clr%2522%253Emore_vert%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                            style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                            sandbox="allow-scripts allow-same-origin">
+                                        </iframe>
+                                    </code>
+                                </div>
+                                <h3 class="button-sub-heading">Example of Card with button</h3>
+                        
+                                <div class="Card-container">
+                                    <div class="Card-one">
+                                        <div class="Card-container-image">
+                                            <img class="Card-image" src="../assets/img/card_image.jpeg" alt="avatar">
+                                        </div>
+                                        <div class="Card-container-content">
+                                            <div class="Card-container-content-one">
+                                                <h2 class="Card-container-content-upper">Our Changing Planet</h2>
+                                                <h3 class="Card-container-content-lower">by Kurt Wagner</h3>
+                                            </div>
+                                            <div class="Card-container-content-two">
+                                                <p class="card-content">Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        
+                                    <div class="Card-two">
+                                        <div class="Card-left">
+                                            <div class="Card-social-text-one">
+                                                <button class="card-read">Read</button>
+                                                <button class="card-bookmark">BOOKMARK</button>
+                                            </div>
+                                        </div>
+                                        <div class="Card-right">
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="code-snippet-display">
+                                    <code>
+                                        <iframe
+                                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=70px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522Card-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522Card-image%2522%2520src%253D%2522images%252Fimages.jpeg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-content-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522Card-container-content-upper%2522%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522Card-container-content-lower%2522%253Eby%2520Kurt%2520Wagner%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-content-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EVisit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-left%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-social-text-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-read%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-bookmark%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-right%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                            style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                            sandbox="allow-scripts allow-same-origin">
+                                        </iframe>
+                                    </code>
+                                </div>
+
+                                <h3 class="button-sub-heading">Example of Card with dismiss</h3>
+                        
+                                <div class="Card-container">
+                                    <div class="Card-one">
+                                        <div class="Card-container-image">
+                                            <img class="Card-image" src="../assets/img/card_image.jpeg" alt="avatar">
+                                            <span class="material-icons card-close">
+                                                close
+                                            </span>
+                                        </div>
+                                        <div class="Card-container-content">
+                                            <div class="Card-container-content-one">
+                                                <h2 class="Card-container-content-upper">Our Changing Planet</h2>
+                                                <h3 class="Card-container-content-lower">by Kurt Wagner</h3>
+                                            </div>
+                                            <div class="Card-container-content-two">
+                                                <p class="card-content">Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        
+                                    <div class="Card-two">
+                                        <div class="Card-left">
+                                            <div class="Card-social-text-one">
+                                                <button class="card-read">Read</button>
+                                                <button class="card-bookmark">BOOKMARK</button>
+                                            </div>                  
+                                        </div>
+                                        <div class="Card-right">
+                                            <div class="Card-social-icon-two">
+                                                <i class="material-icons icon-card-clr">favorite_border</i>
+                                                <i class="material-icons icon-card-clr">share</i>
+                                                <i class="material-icons icon-card-clr">more_vert</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="code-snippet-display">
+                                    <code>
+                                        <iframe
+                                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522Card-container%2522%253E%250A%2520%2520%2509%253Cdiv%2520class%253D%2522Card-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522Card-image%2522%2520src%253D%2522images%252Fimages.jpeg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520card-close%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520close%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-content-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522Card-container-content-upper%2522%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522Card-container-content-lower%2522%253Eby%2520Kurt%2520Wagner%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-content-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253EVisit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522Card-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-left%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-social-text-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-read%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-bookmark%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-right%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-social-icon-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520icon-card-clr%2522%253Efavorite_border%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520icon-card-clr%2522%253Eshare%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520icon-card-clr%2522%253Emore_vert%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                                            style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                            sandbox="allow-scripts allow-same-origin">
+                                        </iframe>
+                                    </code>
+                                </div>
+                                <h3 class="button-sub-heading">Example of Cards with shadow</h3>
+                        
+                                <div class="Card-container-shadow">
+                                    <div class="Card-one">
+                                        <div class="Card-container-content">
+                                            <div class="Card-container-content-one">
+                                                <h2 class="Card-container-content-upper">Our Changing Planet</h2>
+                                                <h3 class="Card-container-content-lower">by Kurt Wagner</h3>
+                                            </div>
+                                        </div>
+                                        <div class="Card-container-image">
+                                            <img class="Card-image" src="../assets/img/card_image.jpeg" alt="avatar">
+                                            <div class="Card-container-content-two">
+                                                <p class="card-content">Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                        
+                                    <div class="Card-two">
+                                        <div class="Card-left">
+                                            <div class="Card-social-text-one">
+                                                <button class="card-read">Read</button>
+                                                <button class="card-bookmark">BOOKMARK</button>
+                                            </div> 
+                                        </div>
+                                        <div class="Card-right">
+                                            <div class="Card-social-icon-two">
+                                                <i class="material-icons icon-card-clr">favorite_border</i>
+                                                <i class="material-icons icon-card-clr">share</i>
+                                                <i class="material-icons icon-card-clr">more_vert</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="code-snippet-display">
+                                    <code>
+                                        <iframe
+                                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522Card-container-shadow%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-content-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522Card-container-content-upper%2522%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522Card-container-content-lower%2522%253Eby%2520Kurt%2520Wagner%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522Card-image%2522%2520src%253D%2522images%252Fimages.jpeg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-content-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-content%2522%253EVisit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-left%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-social-text-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-read%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-bookmark%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-right%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-social-icon-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520icon-card-clr%2522%253Efavorite_border%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520icon-card-clr%2522%253Eshare%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520icon-card-clr%2522%253Emore_vert%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                            style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                            sandbox="allow-scripts allow-same-origin">
+                                        </iframe>
+                                    </code>
+                                </div>
+                                <h3 class="button-sub-heading">Example of Cards with text overlay</h3>
+                        
+                                <div class="Card-container">
+                                    <div class="Card-one card-position">
+                                        <div class="Card-container-image">
+                                            <img class="Card-image" src="../assets/img/card_image.jpeg" alt="avatar">
+                                        </div>
+                                        <div class="Card-container-content">
+                                            <div class="Card-container-content-one content-position">
+                                                <h2 class="Card-container-content-upper">Our Changing Planet</h2>
+                                                <h3 class="Card-container-content-lower">by Kurt Wagner</h3>
+                                            </div>
+                                            <div class="Card-container-content-two">
+                                                <p class="card-content">Visit ten places on our planet that are undergoing the biggest changes today.</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                        
+                                    <div class="Card-two">
+                                        <div class="Card-left">
+                                            <div class="Card-social-text-one">
+                                                <button class="card-read">Read</button>
+                                                <button class="card-bookmark">BOOKMARK</button>
+                                            </div>
+                                        </div>
+                                        <div class="Card-right">
+                                            <div class="Card-social-icon-two">
+                                                <i class="material-icons icon-card-clr">favorite_border</i>
+                                                <i class="material-icons icon-card-clr">share</i>
+                                                <i class="material-icons icon-card-clr">more_vert</i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="code-snippet-display">
+                                    <code>
+                                        <iframe
+                                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=70px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522Card-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-one%2520card-position%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522Card-image%2522%2520src%253D%2522images%252Fimages.jpeg%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-content-one%2520content-position%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522Card-container-content-upper%2522%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522Card-container-content-lower%2522%253Eby%2520Kurt%2520Wagner%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-container-content-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EVisit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-left%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-social-text-one%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-read%2522%253ERead%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-bookmark%2522%253EBOOKMARK%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-right%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522Card-social-icon-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520btn-heart%2522%253Efavorite_border%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520btn-share%2522%253Eshare%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522material-icons%2520btn-dot%2522%253Emore_vert%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                                            style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                            sandbox="allow-scripts allow-same-origin">
+                                        </iframe>
+                                    </code>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                
+
+
+                    <!-- Card section end -->
+
+                      <!-- Image section start -->
+
+
+                      <div class="Image common-container" id="comp-image">
+
+                        <div class="common-wrapper">
+                            <h1 class="comp-lib-avatar-color">Image</h1>
+                            <div class="comp-lib-avatar-content_a">Images can be responsive to fit the parent's width, and also can be customised to be round shaped
+
+                                .</div>
+                            <h3 class="button-sub-heading">Example of Responsive Image</h3>
+                            <div class="comp-lib-avatar-content_a">You can add class Image-responsive to make your image fit the width of container. It's height will get adjusted by keeping the aspect ratio same. If you want to change the aspect ratio, you will have to crop the image.</div>
+
+                            <div class="Image-responsive-body img-responsive">
+                                <img class="Image-responsive" src="../assets/img/responsive_img.jpeg">
+                            </div>
+                            <div class="code-snippet-display">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=70px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522Image-responsive%2522%2520src%253D%2522images%252FImage.jpeg%2522%253E"
+                                        style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+
+                            <h3 class="button-sub-heading">Example of Round Image</h3>
+                            <div class="comp-lib-avatar-content_a">You can add class Image-round to make your image round shaped.
+
+                            </div>
+
+                            <div class="Image-round-body img-responsive">
+                                <img class="Image-round" src="../assets/img/responsive_img.jpeg">
+                            </div>
+                            <div class="code-snippet-display">
+                                <code>
+                                    <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=2px&ph=42px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522Image-round%2522%2520src%253D%2522images%252FImage.jpeg%2522%253E"
+                                    style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                    sandbox="allow-scripts allow-same-origin">
+                                  </iframe>
+                                </code>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Image section end -->
+
+                      <!-- Input section start -->
+
+                      <div class="Input common-container" id="comp-input">
+                        <div class="common-wrapper">
+
+                            <h1 class="comp-lib-avatar-color">Input</h1>
+                            <div class="comp-lib-avatar-content_a">The "input" tag specifies an input field where the user can enter data.</div>
+
+                            <h3 class="button-sub-heading">Example of Textbox</h3>
+                            <div class="Input-container">
+                                <input type="text" class="Input-textbox" placeholder="Enter your text">
+                            </div>
+                            <div class="code-snippet-display">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=2px&ph=42px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522Input-textbox%2522%2520placeholder%253D%2522Enter%2520your%2520text%2522%253E"
+                                        style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+
+                            <h3 class="button-sub-heading">Example of Textbox with validation and error style</h3>
+                            <div class="Input-container">
+                                <div class="Input-container-body">
+
+                                    <input type="text" class="Input-textbox_a" placeholder="Error">
+                                    <input type="text" class="Input-textbox_b" placeholder="Warning">
+                                    <input type="text" class="Input-textbox_c" placeholder="Success">
+                                </div>
+                                <div class="code-snippet-display">
+                                    <code>
+                                        <iframe
+                                            src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522Input-textbox_a%2522%2520placeholder%253D%2522Error%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522Input-textbox_b%2522%2520placeholder%253D%2522Warning%2522%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522Input-textbox_c%2522%2520placeholder%253D%2522Success%2522%253E"
+                                            style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                            sandbox="allow-scripts allow-same-origin">
+                                        </iframe>
+                                    </code>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Input section end -->
+
+                    
+
+
+
 
                 </div>
             </div>
