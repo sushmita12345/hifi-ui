@@ -1,0 +1,108 @@
+.main-icon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button-sub-heading {
+  font-size: 2rem;
+}
+
+.btn-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1.2rem;
+  background-color: var(--secondary-color);
+  border: none;
+  display: inline-flex;
+}
+
+.icon-color {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.icon-text {
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.icon-circle-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1.2rem;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 50%;
+  display: inline-flex;
+}
+
+.ic-text-on {
+  color: var(--secondary-color);
+  font-size: 1.6rem;
+  text-decoration: underline;
+}
+
+.ic-text-tw {
+  color: var(--green);
+  font-size: 1.6rem;
+}
+
+.ic-text-th {
+  color: var(--secondary-color);
+  font-size: 1.6rem;
+}
+
+.ic-text-fo {
+  color: var(--primary-color);
+  font-size: 1.6rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.btn-on {
+  background-color: var(--primary-color);
+}
+
+.btn-tw {
+  border: 0.2rem solid var(--green);
+  background-color: var(--primary-color);
+}
+
+.btn-clr {
+  color: var(--secondary-color);
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+}
+
+.btn-p-on {
+  background-color: var(--blue);
+}
+
+.btn-p-tw {
+  background-color: var(--green);
+}
+
+.btn-p-th {
+  background-color: var(--orange);
+}
+
+.btn-p-fo {
+  background-color: var(--red);
+}
+
+.btn-p-fi {
+  background-color: var(--white);
+  color: var(--black);
+}

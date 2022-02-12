@@ -1,0 +1,15 @@
+.Image-responsive{
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+}
+
+.img-responsive{
+    padding-top: 3rem;
+}
+
+.Image-round{
+    width: 30%;
+    height: 33vh;
+    border-radius: 50%;  
+}
