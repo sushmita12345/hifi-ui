@@ -55,7 +55,8 @@ body {
 }
 
 .darkmode {
-  --off-white: #32174d;
+  /* --off-white: #32174d; */
+  --off-white: #28282b;
   --secondary-color: #a2ffb9;
   --primary-color1: #ffffff;
   --primary-color: #2b0e64;
