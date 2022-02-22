@@ -24,7 +24,12 @@
 
                 <div class="comp-lib-sub-nav nav-addon">
                     <a href="/"><img src="../assets/img/logo.png" class="comp-lib-logo" /></a>
-                    <a href="/components/docs.html"><h4 class="comp-lib-h4-ele_2">Docs</h4></a>
+                    <div class="nav-icon">
+                        <span class="material-icons theme-toggler" id="dark-mode">
+                            dark_mode
+                        </span>
+                        <a href="/components/docs.html"><h4 class="comp-lib-h4-ele_2">Docs</h4></a>
+                    </div>
                 </div>
 
             </header>
@@ -38,7 +43,7 @@
 
                 <!-- Sidebar section start -->
                 
-                <div class="comp-lib-body-ele comp-lib-ele_1">
+                <div class="comp-lib-body-ele comp-lib-ele_1" id="toggle">
                     <div class="comp-lib-drawer-sidebar">
                         <div class="comp-lib-sidebar-content">
                             <a href="#install" class="comp-drawer-content">Installation</a>
@@ -951,7 +956,7 @@
                         
                             <h3 class="button-sub-heading">Example of Navbar</h3>
 
-                            <nav>
+                            <nav class="component-nav"> 
             
                                 <img src="../assets/img/logo.png" class="logo" />
                                 <div>
@@ -965,7 +970,7 @@
                                     <span class="nav-cart-icon">
                                         <span class="material-icons">
                                             shopping_cart
-                                        </span>Cart
+                                        </span>
                                     </span>
                                     <span class="material-icons nav-hamburger-icon">
                                         menu
@@ -1099,6 +1104,7 @@
         <!-- Footer section end -->
 
     </div>
+    <script src="/assets/js/theme-toggler.js"></script>
         
 
 </body>

@@ -38,6 +38,7 @@ header {
 
 .comp-lib-h4-ele_2 {
   margin-right: 5rem;
+  margin-left: 2rem;
   font-size: 1.5rem;
   color: var(--primary-color);
   transition: ease-in 0.1s;

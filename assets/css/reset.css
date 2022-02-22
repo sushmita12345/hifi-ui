@@ -12,6 +12,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+  background-color: var(--off-white);
+  transition: 0.4s ease-in-out;
 }
 
 :root {
@@ -21,12 +23,14 @@ body {
   --byzantium: #7a306c;
   --grey-shade: #808080;
   --light-grey: #d3d3d3;
+  --off-white: #ffffff;
   --code-snip-bg-color: #fafafa;
   --red-shade: #ff0000;
   --green-shade: #228b22;
   --blue-shade: #0000ff;
   --orange-shade: #ffa500;
   --black-shade: #000000;
+  --light-black: #080808;
   --shadow-1: rgba(255, 255, 255, 0.1);
   --shadow-2: rgba(50, 50, 93, 0.25);
   --shadow-3: rgba(0, 0, 0, 0.3);
@@ -45,6 +49,19 @@ body {
   --alert-grey-bg: #f5f5f5;
   --orchid-shade: #da70d6;
   --light-orchid: #bb86fc;
+  --primary-color1: #2b0e64;
+  --secondary-color1: #a2ffb9;
+  --tertiary-color1: #5e17eb;
+}
+
+.darkmode {
+  --off-white: #32174d;
+  --secondary-color: #a2ffb9;
+  --primary-color1: #ffffff;
+  --primary-color: #2b0e64;
+  --secondary-color1: var(--primary-color);
+  --tertiary-color1: var(--primary-color1);
+  --light-black: #d3d3d3;
 }
 
 .code-snippet-display {
@@ -65,6 +82,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--primary-color1);
 }
 
 .common-container > div {
