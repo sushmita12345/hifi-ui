@@ -1,75 +1,126 @@
-@import '/assets/css/reset.css';
-@import '/assets/css/nav.css';
-@import '/assets/css/footer.css';
-
+@import "/assets/css/reset.css";
+@import "/assets/css/nav.css";
+@import "/assets/css/footer.css";
 
 /* body & image section */
 
-.comp-lib-sub-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-left: 3rem;
+.comp-lib-nav {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--off-white);
+  transition: 0.4s ease-in-out;
 }
 
-.comp-lib-body{
-    display: flex;
-    align-items: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    width: 100%;  
+.nav-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.comp-lib-body-ele{
-    display: flex;
-    flex-direction: column;
+#dark-mode {
+  /* margin-right: 2rem; */
+  cursor: pointer;
 }
 
-.comp-lib-h5{
-    font-size: 3rem;
-    color: var(--primary-color);
+.comp-lib-nav-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.comp-lib-h3{
-    font-size: 2rem;
-    color: var(--primary-color);
+.comp-lib-sub-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 
-.comp-lib-h4{
-    
-    font-size: 1.4rem;
-    color: var(--primary-color);
+.comp-lib-body {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 100%;
 }
 
-.comp-lib-image{
-    height: 65vh;
-    width: 50vw;
+.comp-lib-body-ele {
+  display: flex;
+  flex-direction: column;
+}
+
+.comp-lib-h5 {
+  font-size: 3rem;
+  color: var(--primary-color1);
+}
+
+.comp-lib-h3 {
+  font-size: 2rem;
+  color: var(--primary-color1);
+}
+
+.comp-lib-h4 {
+  font-size: 1.4rem;
+  color: var(--primary-color1);
+}
+
+.comp-lib-image {
+  margin-top: 2rem;
+  height: 60vh;
+  width: 40vw;
+  border-radius: 50%;
+  object-fit: contain;
 }
 
 /* button section */
 
-.comp-lib-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.comp-lib-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#comp-lib-btn {
+  align-items: center;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 3rem;
+  transition: ease-in 0.3s;
+  margin-bottom: 10rem;
+}
+
+#comp-lib-btn:hover {
+  background-color: var(--primary-color1);
+  color: var(--secondary-color1);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .comp-lib-nav {
+    height: 100%;
     width: 100%;
-    
-}
+  }
 
-#comp-lib-btn{
-    align-items: center;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    padding: 1.5rem 3.5rem 1.5rem 3.5rem;
-    font-size: 1.8rem;
-    border: none;
-    border-radius: 3rem;
-    transition: ease-in .3s;
-}
+  .comp-lib-body {
+    display: flex;
+    flex-direction: column;
+  }
 
-#comp-lib-btn:hover{
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    cursor: pointer;
+  .comp-lib-image {
+    height: 45vh;
+    width: 85vw;
+  }
+
+  #comp-lib-btn {
+    margin-bottom: 3rem;
+    height: 1.5rem;
+    width: 7rem;
+    font-size: 1.3rem;
+  }
 }

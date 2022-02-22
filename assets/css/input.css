@@ -27,3 +27,12 @@
   flex-direction: column;
   gap: 2rem;
 }
+
+@media only screen and (max-width: 360px) {
+  .Input-textbox,
+  .Input-textbox_a,
+  .Input-textbox_b,
+  .Input-textbox_c {
+    width: 100%;
+  }
+}

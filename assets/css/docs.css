@@ -1,5 +1,6 @@
 @import "/assets/css/reset.css";
 @import "/assets/css/nav.css";
+@import "/assets/css/index.css";
 @import "/assets/css/body.css";
 @import "/assets/css/avatar.css";
 @import "/assets/css/badge.css";
@@ -65,7 +66,7 @@
 }
 
 .comp-lib-drawer-heading_b:hover {
-  color: var(--tertiary-color);
+  color: var(--tertiary-color1);
 }
 
 .comp-lib-main-sidebar {
@@ -103,7 +104,7 @@
   font-weight: 500;
   line-height: 2.2rem;
   padding: 2rem;
-  color: var(--primary-color);
+  color: var(--primary-color1);
   border: none;
   background-color: transparent;
   transition: ease-in-out 0.3s;
@@ -117,4 +118,15 @@
   font-size: 1.7rem;
   font-weight: 500;
   color: var(--primary-color);
+}
+@media only screen and (max-width: 640px) {
+  #toggle {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #toggle {
+    display: none;
+  }
 }
