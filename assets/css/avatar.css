@@ -1,11 +1,11 @@
 .comp-lib-avatar-color {
   color: var(--primary-color1);
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 .comp-lib-avatar-content_b {
   color: var(--primary-color1);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .comp-lib-avatar-content_a {

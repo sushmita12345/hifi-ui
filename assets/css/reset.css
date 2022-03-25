@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap");
 
 html {
   font-size: 62.5%;
@@ -18,7 +18,6 @@ body {
 
 :root {
   --primary-color: #2b0e64;
-  /* --secondary-color: #a2ffb9; */
   --secondary-color: palevioletred;
   --tertiary-color: #5e17eb;
   --byzantium: #7a306c;
@@ -51,15 +50,12 @@ body {
   --orchid-shade: #da70d6;
   --light-orchid: #bb86fc;
   --primary-color1: #2b0e64;
-  /* --secondary-color1: #a2ffb9; */
   --secondary-color1: palevioletred;
   --tertiary-color1: #5e17eb;
 }
 
 .darkmode {
-  /* --off-white: #32174d; */
   --off-white: #28282b;
-  /* --secondary-color: #a2ffb9; */
   --secondary-color: palevioletred;
   --primary-color1: #ffffff;
   --primary-color: #2b0e64;

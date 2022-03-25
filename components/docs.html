@@ -58,6 +58,8 @@
                             <a href="#comp-nav" class="comp-drawer-content">Navigation</a>
                             <a href="#comp-snack" class="comp-drawer-content">Snackbar</a>
                             <a href="#comp-grid" class="comp-drawer-content">Grid</a>
+                            <a href="#comp-rating" class="comp-drawer-content">Rating</a>
+                            <a href="#comp-list" class="comp-drawer-content">List</a>
                         </div>
                     </div>
                 </div>
@@ -1074,6 +1076,225 @@
 
                     <!-- Grid end -->
 
+                    <!-- Rating Start -->
+
+                    <div class="Rating common-container" id="comp-rating">
+                        <div class="common-wrapper">
+
+                            <h1 class="comp-lib-avatar-color">Rating</h1>
+                            <div class="comp-lib-avatar-content_a">Ratings provide insight regarding others' opinions and experiences, and can allow the user to submit a rating of their own.</div>
+                        
+                            <h3 class="button-sub-heading">Example of Filled Rating</h3>
+                            <div class="rating-container">
+                                <div class="filled-rating">
+                                    <span class="material-icons filled-color">
+                                        star
+                                    </span>
+                                    <span class="material-icons filled-color">
+                                        star
+                                    </span>
+                                    <span class="material-icons filled-color">
+                                        star
+                                    </span>
+                                    <span class="material-icons filled-color">
+                                        star
+                                    </span>
+                                    <span class="material-icons filled-color">
+                                        star
+                                    </span>
+                                </div>
+
+                                 <!-- Example of Outlined Rating -->
+
+                                <h3 class="button-sub-heading">Example of Outlined Rating</h3>
+                                <div class="filled-rating">
+                                    <span class="material-icons filled-color">
+                                        star_outline
+                                    </span>
+                                    <span class="material-icons filled-color">
+                                        star_outline
+                                    </span>
+                                    <span class="material-icons filled-color">
+                                        star_outline
+                                    </span>
+                                    <span class="material-icons filled-color">
+                                        star_outline
+                                    </span>
+                                    <span class="material-icons filled-color">
+                                        star_outline
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-snippet-display">
+                            <code>
+                                <iframe
+                                    src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522filled-rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520filled-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520star%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520filled-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520star%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520filled-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520star%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520filled-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520star%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520filled-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520star%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%253C%21--%2520Example%2520of%2520Outlined%2520Rating%2520--%253E%250A%250A%2520%2520%253Ch3%2520class%253D%2522button-sub-heading%2522%253E%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522filled-rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520filled-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520star%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520filled-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520star%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520filled-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520star%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520filled-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520star%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520filled-color%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520star%250A%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                                    style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                    sandbox="allow-scripts allow-same-origin">
+                                </iframe>
+                            </code>
+
+                        </div>
+                    </div>
+                          
+
+                               
+                    <!-- Rating end -->
+
+                    <!-- Spaced and Stacked List start -->
+
+                    <div class="List common-container" id="comp-list">
+                        <div class="common-wrapper">
+
+                            <h1 class="comp-lib-avatar-color">Lists</h1>
+                            <div class="comp-lib-avatar-content_a">Ratings provide insight regarding others' opinions and experiences, and can allow the user to submit a rating of their own.</div>
+                        
+                            <h3 class="button-sub-heading">Example of Ordered List</h3>
+                            <div class="list-ordered-container">
+                                <ol class="list-type-number">
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                </ol>
+                                <ol class="list-type-upper-alpha">
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                </ol>
+                                <ol class="list-type-lower-alpha">
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                </ol>
+                                <ol class="list-type-upper-roman">
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                </ol>
+                                <ol class="list-type-lower-roman">
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                </ol>
+                            </div>
+
+                            <div class="code-snippet-display">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-ordered-container%2522%253E%250A%2520%2520%253Col%2520class%253D%2522list-type-number%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%253C%252Fol%253E%250A%2520%2520%253Col%2520class%253D%2522list-type-upper-alpha%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%253C%252Fol%253E%250A%2520%2520%253Col%2520class%253D%2522list-type-lower-alpha%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%253C%252Fol%253E%250A%2520%2520%253Col%2520class%253D%2522list-type-upper-roman%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%253C%252Fol%253E%250A%2520%2520%253Col%2520class%253D%2522list-type-lower-roman%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%253C%252Fol%253E%250A%2520%2520%253C%252Fdiv%253E"
+                                        style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+
+                            <h3 class="button-sub-heading">Example of Ordered List</h3>
+                            <div class="list-unordered-container">
+                                <ul class="list-circle">
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                </ul>
+                                <ul class="list-square">
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                </ul>
+                                <ul class="list-disk">
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                    <li>List Item</li>
+                                </ul>
+                            </div>
+
+                            <div class="code-snippet-display">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-unordered-container%2522%253E%250A%2520%2520%253Cul%2520class%253D%2522list-circle%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253Cul%2520class%253D%2522list-square%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253Cul%2520class%253D%2522list-disk%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253EList%2520Item%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+                                        style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+                            </div>
+
+                            <h3 class="button-sub-heading">Example of Stacked List (Notification Page)</h3>
+
+                            <div>
+                                <div class="stacked-list-container">
+                                    <div>
+                                        <img class="stacked-list-img" src="/assets/img/avatar.jpeg" />
+                                    </div>
+                                    <div class="stacked-content-container">
+                                        <span>Adarsh Balika</span>
+                                        <span>adarshBalika@gmail.com</span>
+                                    </div>
+                                    <span class="material-icons stacked-close-icon">
+                                        close
+                                    </span>
+                                   
+                                </div>
+                                <div class="stacked-list-container">
+                                    <div>
+                                        <img class="stacked-list-img" src="/assets/img/avatar.jpeg" />
+                                    </div>
+                                    <div class="stacked-content-container">
+                                        <span>Adarsh Balika</span>
+                                        <span>adarshBalika@gmail.com</span>
+                                    </div>
+                                    <span class="material-icons stacked-close-icon">
+                                        close
+                                    </span>
+                                   
+                                </div>
+                                <div class="stacked-list-container">
+                                    <div>
+                                        <img class="stacked-list-img" src="/assets/img/avatar.jpeg" />
+                                    </div>
+                                    <div class="stacked-content-container">
+                                        <span>Adarsh Balika</span>
+                                        <span>adarshBalika@gmail.com</span>
+                                    </div>
+                                    <span class="material-icons stacked-close-icon">
+                                        close
+                                    </span>
+                                   
+                                </div>
+                            </div>
+
+                            <div class="code-snippet-display">
+                                <code>
+                                    <iframe
+                                        src="https://carbon.now.sh/embed?bg=rgba%28250%2C250%2C250%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=40px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522stacked-list-container%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522stacked-list-img%2522%2520src%253D%2522%252Fassets%252Fimg%252Favatar.jpeg%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522stacked-content-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253EAdarsh%2520Balika%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%253EadarshBalika%2540gmail.com%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons%2520stacked-close-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520close%250A%2520%2520%253C%252Fspan%253E%250A%250A%253C%252Fdiv%253E"
+                                        style="width: 900px; border:0; transform: scale(1); overflow:hidden;"
+                                        sandbox="allow-scripts allow-same-origin">
+                                    </iframe>
+                                </code>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <!-- Spaced and Stacked List end -->
                     
 
 
