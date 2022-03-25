@@ -24,12 +24,12 @@ button {
 }
 
 .icon-color {
-  color: var(--primary-color);
+  color: var(--code-snip-bg-color);
   cursor: pointer;
 }
 
 .icon-text {
-  color: var(--primary-color);
+  color: var(--code-snip-bg-color);
   font-size: 1.6rem;
   cursor: pointer;
 }
@@ -63,7 +63,7 @@ button {
 }
 
 .ic-text-fo {
-  color: var(--primary-color);
+  color: var(--code-snip-bg-color);
   font-size: 1.6rem;
 }
 
@@ -72,16 +72,16 @@ a:link {
 }
 
 .btn-on {
-  background-color: var(--primary-color);
+  background-color: var(--code-snip-bg-color);
 }
 
 .btn-tw {
   border: 0.2rem solid var(--green-shade);
-  background-color: var(--primary-color);
+  background-color: var(--code-snip-bg-color);
 }
 
 .btn-clr {
-  color: var(--secondary-color);
+  color: var(--code-snip-bg-color);
   font-size: 1.6rem;
   border-radius: 0.5rem;
 }

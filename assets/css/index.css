@@ -68,9 +68,9 @@
 
 .comp-lib-image {
   margin-top: 2rem;
-  height: 60vh;
+  height: 40vh;
   width: 40vw;
-  border-radius: 50%;
+
   object-fit: contain;
 }
 
@@ -86,18 +86,18 @@
 #comp-lib-btn {
   align-items: center;
   background-color: var(--secondary-color);
-  color: var(--primary-color);
+  color: var(--code-snip-bg-color);
   padding: 1.5rem 3.5rem 1.5rem 3.5rem;
   font-size: 1.8rem;
   border: none;
-  border-radius: 3rem;
+  border-radius: 1.5rem;
   transition: ease-in 0.3s;
   margin-bottom: 10rem;
+  cursor: pointer;
 }
 
 #comp-lib-btn:hover {
-  background-color: var(--primary-color1);
-  color: var(--secondary-color1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   cursor: pointer;
 }
 

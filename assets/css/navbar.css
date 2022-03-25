@@ -44,8 +44,8 @@ nav {
   line-height: 2.4rem;
   border: none;
   text-align: center;
-  color: var(--secondary-color);
-  border-radius: 3rem;
+  color: var(--code-snip-bg-color);
+  border-radius: 1rem;
   transition: ease-in-out 0.5s;
   cursor: pointer;
   background: var(--primary-color);
