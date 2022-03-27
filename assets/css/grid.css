@@ -1,15 +1,29 @@
 .grid-container-1a {
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 25rem;
+  grid-template-columns: repeat(2, 15rem);
+  grid-template-rows: 15rem 15rem;
+}
+
+.grid-2d {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
 
 .grid-container-1b {
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 25rem;
-  padding-top: 10rem;
-  padding-bottom: 3rem;
+  grid-template-columns: repeat(3, 15rem);
+  grid-template-rows: 15rem 15rem 15rem;
+}
+
+.grid-3d {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
