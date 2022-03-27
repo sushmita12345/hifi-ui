@@ -12,8 +12,3 @@ closeBtn.addEventListener('click', () => {
   openModal.style.display = 'none';
 });
 
-// window.onclick = function(e) {
-//     if (e.target === openModal) {
-//         openModal.style.display = 'none';
-//     }
-// }
