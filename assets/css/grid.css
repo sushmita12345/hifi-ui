@@ -1,15 +1,22 @@
 .grid-container-1a {
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 25rem;
+  grid-template-areas:
+    " 2-a 2-b"
+    " 2-c 2-d";
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .grid-container-1b {
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 25rem;
-  padding-top: 10rem;
+  grid-template-areas:
+    " 3-a 3-b 3-c"
+    " 3-d 3-e 3-f"
+    " 3-g 3-h 3-i";
+  padding-top: 5rem;
   padding-bottom: 3rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
