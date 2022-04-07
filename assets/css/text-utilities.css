@@ -13,3 +13,7 @@
 .heading-2 {
   color: var(--red-shade);
 }
+
+.comp-text-center {
+  text-align: center;
+}
