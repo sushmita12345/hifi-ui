@@ -365,6 +365,29 @@
   background-color: var(--white);
 }
 
+/* text card */
+
+.text-card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.text-card-content {
+  font-size: 1.5rem;
+}
+
+.card-text-btn {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: none;
+  height: 3rem;
+  width: 6rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 5px;
+  font-size: 1.4rem;
+}
+
 @media screen and (max-width: 1040px) {
   html {
     font-size: 62.5%;
